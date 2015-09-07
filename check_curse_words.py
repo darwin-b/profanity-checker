@@ -2,7 +2,7 @@ import urllib
 import os
 def read_text():
     path = os.getcwd()
-    path = path+"\check.txt"
+    path = path+os.path.sep+"check.txt"
     quotes = open(path) 
     contents_of_file = quotes.read()
     #print(contents_of_file)
